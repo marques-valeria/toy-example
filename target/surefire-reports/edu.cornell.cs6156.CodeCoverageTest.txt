@@ -1,0 +1,18 @@
+-------------------------------------------------------------------------------
+Test set: edu.cornell.cs6156.CodeCoverageTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 3, Skipped: 0, Time elapsed: 0.217 s <<< FAILURE! - in edu.cornell.cs6156.CodeCoverageTest
+violation(edu.cornell.cs6156.CodeCoverageTest)  Time elapsed: 0.085 s  <<< ERROR!
+java.lang.ExceptionInInitializerError
+	at edu.cornell.cs6156.CodeCoverageTest.setup(CodeCoverageTest.java:19)
+Caused by: java.lang.NullPointerException
+	at edu.cornell.cs6156.CodeCoverageTest.setup(CodeCoverageTest.java:19)
+
+lineCoverage(edu.cornell.cs6156.CodeCoverageTest)  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class mop.MultiSpec_1RuntimeMonitor
+	at edu.cornell.cs6156.CodeCoverageTest.setup(CodeCoverageTest.java:19)
+
+moreLineCoverage(edu.cornell.cs6156.CodeCoverageTest)  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class mop.MultiSpec_1RuntimeMonitor
+	at edu.cornell.cs6156.CodeCoverageTest.setup(CodeCoverageTest.java:19)
+

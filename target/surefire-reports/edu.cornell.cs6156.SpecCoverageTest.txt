@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: edu.cornell.cs6156.SpecCoverageTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 3, Skipped: 0, Time elapsed: 0.002 s <<< FAILURE! - in edu.cornell.cs6156.SpecCoverageTest
+baosTestOne(edu.cornell.cs6156.SpecCoverageTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class mop.MultiSpec_1RuntimeMonitor
+	at edu.cornell.cs6156.SpecCoverageTest.baosTestOne(SpecCoverageTest.java:17)
+
+baosTestTwo(edu.cornell.cs6156.SpecCoverageTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class mop.MultiSpec_1RuntimeMonitor
+	at edu.cornell.cs6156.SpecCoverageTest.baosTestTwo(SpecCoverageTest.java:24)
+
+baosTestThree(edu.cornell.cs6156.SpecCoverageTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class mop.MultiSpec_1RuntimeMonitor
+	at edu.cornell.cs6156.SpecCoverageTest.baosTestThree(SpecCoverageTest.java:31)
+
