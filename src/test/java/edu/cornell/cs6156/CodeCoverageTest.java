@@ -29,7 +29,6 @@ public class CodeCoverageTest {
     public void moreLineCoverage() throws IOException {
         b.write("Hello");
         b.write(" World");
-        System.out.println(b.getCurrentContents());
         assertTrue(b.getCurrentContents().contains("Hello") && b.getCurrentContents().contains("World"));
     }
 
