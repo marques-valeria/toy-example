@@ -1,4 +1,4 @@
-package edu.cornell.cs6156;
+package edu.corn;
 
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;

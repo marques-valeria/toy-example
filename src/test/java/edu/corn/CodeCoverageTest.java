@@ -1,4 +1,4 @@
-package edu.cornell.cs6156;
+package edu.corn;
 
 import org.junit.Before;
 import org.junit.Test;
